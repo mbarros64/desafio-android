@@ -1,4 +1,4 @@
-package com.picpay.desafio.android.user.network
+package com.picpay.desafio.android.network
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

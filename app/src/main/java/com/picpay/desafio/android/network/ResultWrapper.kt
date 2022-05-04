@@ -1,4 +1,4 @@
-package com.picpay.desafio.android.user.network
+package com.picpay.desafio.android.network
 
 sealed class ResultWrapper<out T> {
     data class Success<out T>(val content: T) : ResultWrapper<T>()
