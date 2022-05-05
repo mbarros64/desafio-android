@@ -5,7 +5,7 @@ import com.picpay.desafio.android.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
-class PicPayAPp: Application() {
+class PicPayApp: Application() {
 
     override fun onCreate() {
         super.onCreate()
@@ -14,7 +14,7 @@ class PicPayAPp: Application() {
 
     private fun configKoin() {
         startKoin {
-            androidContext(this@PicPayAPp)
+            androidContext(this@PicPayApp)
             modules(appModule)
         }
     }
