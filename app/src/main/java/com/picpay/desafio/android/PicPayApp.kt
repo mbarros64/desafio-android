@@ -20,7 +20,7 @@ class PicPayApp : Application() {
     private fun configKoin() {
         startKoin {
             androidContext(this@PicPayApp)
-            modules(appModule + getApisModule(Companion.API_URL))
+            modules(appModule + getApisModule(API_URL))
         }
     }
 }
