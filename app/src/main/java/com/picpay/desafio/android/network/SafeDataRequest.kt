@@ -1,6 +1,4 @@
-package com.picpay.desafio.android.user.network
-
-import com.picpay.desafio.android.network.ResultWrapper
+package com.picpay.desafio.android.network
 
 suspend fun <T> safeDataRequest(function: suspend () -> T): ResultWrapper<T> {
     return try {

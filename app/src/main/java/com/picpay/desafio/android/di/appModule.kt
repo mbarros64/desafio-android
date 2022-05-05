@@ -1,7 +1,7 @@
 package com.picpay.desafio.android.di
 
 import androidx.room.Room
-import com.picpay.desafio.android.user.database.AppDatabase
+import com.picpay.desafio.android.database.AppDatabase
 import com.picpay.desafio.android.network.RetrofitFactory
 import com.picpay.desafio.android.user.network.UserService
 import com.picpay.desafio.android.user.repository.UserRepository

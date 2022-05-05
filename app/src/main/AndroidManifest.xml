@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".PicPayApp"
+        android:name=".PicPayAPp"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity android:name=".user.view.MainActivity"
             android:exported="true">
