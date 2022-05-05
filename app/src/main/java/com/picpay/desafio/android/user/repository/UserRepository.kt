@@ -4,7 +4,6 @@ import com.picpay.desafio.android.user.database.UserDao
 import com.picpay.desafio.android.user.database.toDomain
 import com.picpay.desafio.android.network.ResultWrapper
 import com.picpay.desafio.android.network.safeDataRequest
-import com.picpay.desafio.android.user.domain.UserDomain
 import com.picpay.desafio.android.user.network.*
 import kotlinx.coroutines.flow.flow
 
@@ -13,7 +12,7 @@ class UserRepository(
     private val userDao: UserDao
 ) {
 
-    suspend fun getUsers() = flow {
+     fun getUsers() = flow {
         emit(userDao.getAll().toDomain())
 
         when (val result = safeDataRequest { userService.getUsers() }) {
