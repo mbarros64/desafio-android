@@ -1,10 +1,10 @@
 package com.picpay.desafio.android.user.network
 
 import com.picpay.desafio.android.user.domain.UserDomain
-import junit.framework.Assert.assertEquals
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
-class UserResponseKtTest {
+class UserResponseTest {
 
     @Test
     fun `Should map user response to user domain correctly`() {

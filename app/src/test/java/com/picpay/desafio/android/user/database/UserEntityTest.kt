@@ -4,7 +4,7 @@ import com.picpay.desafio.android.user.domain.UserDomain
 import org.junit.Test
 import kotlin.test.assertEquals
 
-class UserEntityKtTest {
+class UserEntityTest {
     @Test
     fun `Should map user response to user domain correctly`() {
         val actual = listOf(
