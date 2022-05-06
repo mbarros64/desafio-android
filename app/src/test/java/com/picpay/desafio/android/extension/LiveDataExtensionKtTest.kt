@@ -2,7 +2,7 @@ package com.picpay.desafio.android.extension
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
-import com.picpay.desafio.android.extensions.updateAsync
+import com.picpay.desafio.android.utils.extensions.updateAsync
 import org.junit.Rule
 import org.junit.Test
 import kotlin.test.assertEquals

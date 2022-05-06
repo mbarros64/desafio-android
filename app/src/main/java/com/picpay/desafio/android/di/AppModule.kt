@@ -1,11 +1,11 @@
 package com.picpay.desafio.android.di
 
 import androidx.room.Room
-import com.picpay.desafio.android.database.AppDatabase
+import com.picpay.desafio.android.data.database.AppDatabase
 import com.picpay.desafio.android.network.RetrofitFactory
-import com.picpay.desafio.android.user.network.UserService
-import com.picpay.desafio.android.user.repository.UserRepository
-import com.picpay.desafio.android.user.viewmodel.UserViewModel
+import com.picpay.desafio.android.data.api.services.UserService
+import com.picpay.desafio.android.repositories.UserRepository
+import com.picpay.desafio.android.ui.viewmodel.UserViewModel
 import org.koin.android.ext.koin.androidApplication
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
